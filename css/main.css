@@ -1129,9 +1129,16 @@
 
 @media only screen and (max-width: 426px) {
   .footer__inner {
+    text-align: center;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+  }
+
+  .footer__icons {
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
   }
   .footer__box {
     max-width: 280px;
